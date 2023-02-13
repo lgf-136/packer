@@ -1,0 +1,9 @@
+{
+  "type": "virtualbox-iso",
+  "guest_os_type": "Ubuntu_64",
+  "iso_url": "http://releases.ubuntu.com/14.04/ubuntu-14.04.6-server-amd64.iso",
+  "iso_checksum": "md5:e750536067b6fff7f9934a13466fe2db",
+  "ssh_username": "vagrant",
+  "ssh_password": "vagrant",
+  "shutdown_command": "echo 'build vagrant box by packer' | sudo -S shutdown -P now"
+}

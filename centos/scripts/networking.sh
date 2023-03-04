@@ -1,6 +1,9 @@
 #!/bin/sh -eux
 
+systemctl stop firewalld.service
+
 case "$PACKER_BUILDER_TYPE" in
+
 
 virtualbox-iso|virtualbox-ovf)
     # Fix slow DNS:

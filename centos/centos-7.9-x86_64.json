@@ -198,7 +198,7 @@
     "iso_name": "CentOS-7-x86_64-Minimal-2009.iso",
     "ks_path": "7/ks.cfg",
     "memory": "1024",
-    "mirror": "http://mirrors.kernel.org/centos",
+    "mirror": "http://mirrors.ustc.edu.cn/centos",
     "mirror_directory": "7.9.2009/isos/x86_64",
     "name": "centos-7.9",
     "no_proxy": "{{env `no_proxy`}}",
